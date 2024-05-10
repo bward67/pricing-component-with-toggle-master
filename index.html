@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1>Our Pricing</h1>
+        <div class="toggle-container">
+          <p>Annually</p>
+
+          <label for="my-checkbox" role="button" class="toggle">
+            <input type="checkbox" id="my-checkbox" tabindex="0" />
+            <span class="slider" data-slider></span>
+          </label>
+
+          <p>Monthly</p>
+        </div>
+      </header>
+
+      <section class="packages">
+        <div class="basic container">
+          <h2>Basic</h2>
+          <div class="price-container">
+            <p>&dollar;</p>
+            <h3 class="basic-price" data-basic-price>19.99</h3>
+          </div>
+          <div class="packages-content">
+            <p>500 GB Storage</p>
+            <p>2 Users Allowed</p>
+            <p>Send up to 3 GB</p>
+          </div>
+          <button class="dark-btn">Learn More</button>
+        </div>
+        <div class="professional container">
+          <h2>Professional</h2>
+          <div class="price-container">
+            <p>&dollar;</p>
+            <h3 class="professional-price" data-professional-price>24.99</h3>
+          </div>
+          <div class="packages-content">
+            <p>1 TB Storage</p>
+            <p>5 Users Allowed</p>
+            <p>Send up to 10 GB</p>
+          </div>
+          <button class="light-btn">Learn More</button>
+        </div>
+        <div class="master container">
+          <h2>Master</h2>
+          <div class="price-container">
+            <p>&dollar;</p>
+            <h3 class="master-price" data-master-price>39.99</h3>
+          </div>
+          <div class="packages-content">
+            <p>2 TB Storage</p>
+            <p>10 Users Allowed</p>
+            <p>Send up to 20 GB</p>
+          </div>
+          <button class="dark-btn">Learn More</button>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
